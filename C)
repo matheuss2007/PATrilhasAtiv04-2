@@ -1,0 +1,20 @@
+using System;
+
+namespace atv5
+	
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			int[] numeros = new int[0]; 
+
+        string mensagem = (numeros.Length == 0) ? "a lista está vazia." : "A lista contém elementos.";
+
+        Console.WriteLine(mensagem);
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
