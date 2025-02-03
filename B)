@@ -1,0 +1,19 @@
+using System;
+
+namespace atv5
+	
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			Console.WriteLine("Digite um numero:");
+			int num1 = int.Parse(Console.ReadLine());
+			
+			Console.WriteLine("Digite outro numero:");
+			int num2 = int.Parse(Console.ReadLine());
+			
+			string resultado = ( num1 > num2) ? "maior"  : (num1 < num2)  ? "menor" : "igual";
+			
+			Console.WriteLine("o número {0} é {2} que  {1}  :", num1, num2, resultado);
