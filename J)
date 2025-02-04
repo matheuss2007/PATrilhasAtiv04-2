@@ -1,0 +1,23 @@
+using System;
+
+namespace higorrafael
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			string variavel= null;
+		
+	     string resultado = (variavel == null) ? "variável nula" : "variável não nula";
+	    
+	    Console.WriteLine(resultado);
+ 
+	    
+			
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
